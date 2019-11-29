@@ -1,5 +1,6 @@
 from arcade.gui import *
 import player
+import connect
 
 class HostButton(TextButton):
     def __init__(self, ludo, x=0, y=0, width=100, height=40, text="Host",face_color=None, theme=None):
